@@ -1,0 +1,71 @@
+.navbar-default {
+    background-color: #0074D9;
+    border-color: #E7E7E7;
+}
+
+.img-division{
+	width: 120px;
+    height: 120px;
+}
+
+.img-icon{
+	width: 40px;
+    height: 40px;
+}
+
+.img-champion{
+	width: 80px;
+    height: 80px;
+}
+
+.kda-text{
+	color: #FF851B;
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.winrate-text{
+	color:#0074D9;
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.left-10px{
+	padding-left: 10px;
+}
+
+.top-10px{
+	padding-top: 10px;	
+}
+
+.top-20px{
+	padding-top: 20px;	
+}
+
+.bottom-10px{
+	padding-bottom: 10px;	
+}
+
+.bottom-20px{
+	padding-bottom: 20px;	
+}
+
+.center{
+    vertical-align : middle;
+}
+
+dt{ 
+	padding-bottom: 10px; 
+	float: left; clear: left; 
+	width: 8em;
+}
+dd{ 
+	padding-bottom: 10px; 
+	float: left; 
+}
+
+.table-vcenter td {
+   vertical-align: middle!important;
+}
