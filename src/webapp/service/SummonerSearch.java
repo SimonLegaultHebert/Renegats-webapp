@@ -58,7 +58,6 @@ public class SummonerSearch {
 	 * @throws RateLimitExceededException 
 	 */
 	public Summoner searchAllSummonerInfo(String username) throws UnsupportedOperationException, ParseException, IOException, RateLimitExceededException{
-		System.out.println("-------------------NEW SEARCH-------------------");
 		Summoner summoner = searchSummonerBasicInfo(removeSpecialCharacters(username));
 		LinkedHashMap<Champion, Stats> championMap = searchChampionList(summoner);
 		calculateSummonerSummaryStats(summoner, championMap);

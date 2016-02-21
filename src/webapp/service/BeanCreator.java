@@ -64,8 +64,13 @@ public class BeanCreator {
 		JSONObject src = (JSONObject) parser.parse(content);
 		champion.setName(src.get(NAME_KEY).toString());
 		champion.setTitle(src.get(TITLE_KEY).toString());
-		champion.setImage(champion.getName().replaceAll(" ", ""));
+		champion.setImage(replaceSpecialCharacters(champion.getName()));
 		return champion;
+	}
+
+	private String replaceSpecialCharacters(String championName){
+		championName = championName.replaceAll(" |\\.", "");
+		return championName;
 	}
 	
 	public RankedDivision createRankedDivision(int summonerID, String content) throws ParseException{
